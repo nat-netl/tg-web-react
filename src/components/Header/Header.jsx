@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useTelegram } from '../../hooks/useTelegram'
 import Button from '../../UI/Button'
 
@@ -6,10 +6,10 @@ const Header = () => {
   const {onClose, user} = useTelegram();
 
   return (
-    <div className={'header'}>
+    <div className='header'>
 
       <Button onClick={onClose}>Закрыть</Button>
-      <span className={'username'}>
+      <span className='username'>
         {user}
       </span>
 
