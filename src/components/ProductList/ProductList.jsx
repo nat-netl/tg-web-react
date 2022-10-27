@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useTelegram } from "../../hooks/useTelegram";
-import ProductItem from "../ProductItem/ProductItem";
+import ProductItems from "../ProductItem/ProductItems";
 import "./ProductsList.css";
 
 const products = [
@@ -50,7 +50,7 @@ const ProductsList = () => {
   return (
     <div className={"list"}>
       {products.map((product) => (
-        <ProductItem key={product.id} product={product} onAdd={onAdd} className={"item"} />
+        <ProductItems key={product.id} product={product} onAdd={onAdd} className={"item"} />
       ))
       }
     </div>
