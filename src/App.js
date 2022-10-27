@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Form from './components/Form/Form';
 import Header from './components/Header/Header';
-import ProductsList from './components/ProductList/ProductsList';
+import ProductsList from './components/ProductList/ProductList';
 import { useTelegram } from './hooks/useTelegram';
 
 
