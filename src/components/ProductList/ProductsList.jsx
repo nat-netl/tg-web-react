@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useTelegram } from "../../hooks/useTelegram";
-import ProductItem from "../ProductItem/ProductItem.JSX";
+import ProductItem from "../ProductItem/ProductItem";
 import "./ProductsList.css";
 
 const products = [
