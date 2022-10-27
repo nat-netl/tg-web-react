@@ -13,3 +13,11 @@
   margin: 0 10px;
   background: var(--tg-theme-button-color);
 }
+
+.description {
+  font-size: .8em;
+}
+
+.add-btn {
+  width: 100%;
+}
