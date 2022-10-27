@@ -15,7 +15,7 @@ const Form = () => {
   }, [tg])
 
   useEffect (() => {
-    if (!street && !country) {
+    if (!street || !country) {
       tg.MainButton.hide()
     } else if (street && country) {
       tg.MainButton.show()
