@@ -24,13 +24,13 @@ const Form = () => {
     return () => {
       tg.offEvent('mainButtonClicked', onSendData)
     }
-  }, [onSendData])
+  }, [])
 
   useEffect (() => {
     tg.MainButton.setParams({
       text: 'Отправить данные'
     })
-  }, [tg])
+  }, [])
 
   useEffect (() => {
     if (!street || !country) {
